@@ -1,0 +1,59 @@
+body {
+    background: #ededed;
+}
+
+h3 {
+    margin: .25em 0 .4em;
+}
+
+.room  {
+    display: flex;
+    align-items: center;
+}
+
+.room input {
+    width: 80px;
+    margin-right: 5px;
+}
+
+.room label {
+    font-size: 1.8rem;
+}
+
+.room select {
+    width: 120px;
+    margin-right: 5px;
+}
+
+
+.room .left {
+    display: flex;
+}
+
+.room .right {
+    display: flex;
+}
+
+#res {
+    margin-left: 5px;
+    font-size: 1.7rem;
+}
+
+.button.outline {
+    margin-top: 20px;
+}
+
+.room .doorCorridor {
+    width: 140px;
+}
+
+
+
+
+/* ------------------------------------------------ */
+
+@media (max-width: 600px) {
+    .room  {
+        display: block;
+    }
+  }
